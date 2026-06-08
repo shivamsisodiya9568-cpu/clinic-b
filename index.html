@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GS Clinic Agra - Premium multispeciality healthcare. Book appointments, consult expert doctors, and get trusted medical care in Agra, Uttar Pradesh." />
+  <meta name="keywords" content="GS Clinic, Agra clinic, best doctor Agra, hospital Agra, appointment booking, multispeciality clinic" />
+  <title>GS Clinic | Premium Healthcare in Agra</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADING ANIMATION ===== -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <div class="pulse-ring"></div>
+      <div class="pulse-ring delay"></div>
+      <i class="fa-solid fa-heart-pulse loader-icon"></i>
+    </div>
+    <p class="loader-text">GS Clinic</p>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header id="navbar" class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-staff-snake"></i></span>
+        <span class="logo-text">GS <span>Clinic</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#doctor" class="nav-link">Doctor</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#appointment" class="nav-link">Appointment</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#appointment" class="btn btn-primary nav-cta">
+        <i class="fa-solid fa-calendar-check"></i> Book Now
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <div class="container hero-grid">
+      <div class="hero-content" data-reveal>
+        <span class="badge"><i class="fa-solid fa-award"></i> Trusted Healthcare in Agra</span>
+        <h1>Your Health, <span class="gradient-text">Our Priority</span></h1>
+        <p class="hero-sub">
+          Experience world-class medical care at GS Clinic. Expert doctors, advanced facilities,
+          and compassionate service — all under one roof in the heart of Agra.
+        </p>
+        <div class="hero-btns">
+          <a href="#appointment" class="btn btn-primary">
+            <i class="fa-solid fa-calendar-plus"></i> Book Appointment
+          </a>
+          <a href="#services" class="btn btn-outline">
+            <i class="fa-solid fa-stethoscope"></i> Our Services
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <h3>15+</h3>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat">
+            <h3>10k+</h3>
+            <p>Happy Patients</p>
+          </div>
+          <div class="stat">
+            <h3>25+</h3>
+            <p>Specialities</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?w=800&auto=format&fit=crop" alt="Doctor" onerror="this.src='https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800'">
+          <div class="floating-card fc-1">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <div>
+              <strong>24/7 Care</strong>
+              <small>Always available</small>
+            </div>
+          </div>
+          <div class="floating-card fc-2">
+            <i class="fa-solid fa-user-doctor"></i>
+            <div>
+              <strong>Expert Doctors</strong>
+              <small>Certified specialists</small>
+            </div>
+          </div>
+          <div class="floating-card fc-3">
+            <i class="fa-solid fa-star"></i>
+            <div>
+              <strong>4.9 Rating</strong>
+              <small>1200+ reviews</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <i class="fa-solid fa-arrow-down"></i>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div class="about-image" data-reveal>
+        <div class="img-wrapper">
+          <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&auto=format&fit=crop" alt="GS Clinic">
+          <div class="about-badge">
+            <i class="fa-solid fa-shield-heart"></i>
+            <div>
+              <strong>15+ Years</strong>
+              <small>of trusted service</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-content" data-reveal>
+        <span class="section-tag">About Us</span>
+        <h2>Caring for Agra's Families <span class="gradient-text">Since 2009</span></h2>
+        <p>
+          GS Clinic is a leading multispeciality healthcare center in Agra, committed to delivering
+          affordable, accessible, and advanced medical treatment. Our team of experienced doctors
+          and caring staff ensure every patient receives personalized attention.
+        </p>
+        <div class="about-features">
+          <div class="feature"><i class="fa-solid fa-check-circle"></i><span>Modern Diagnostic Equipment</span></div>
+          <div class="feature"><i class="fa-solid fa-check-circle"></i><span>Qualified Medical Professionals</span></div>
+          <div class="feature"><i class="fa-solid fa-check-circle"></i><span>Affordable Treatment Plans</span></div>
+          <div class="feature"><i class="fa-solid fa-check-circle"></i><span>Hygienic & Safe Environment</span></div>
+          <div class="feature"><i class="fa-solid fa-check-circle"></i><span>Digital Health Records</span></div>
+          <div class="feature"><i class="fa-solid fa-check-circle"></i><span>Emergency Care Support</span></div>
+        </div>
+        <a href="#appointment" class="btn btn-primary"><i class="fa-solid fa-arrow-right"></i> Visit the Clinic</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOCTOR ===== -->
+  <section id="doctor" class="section doctor">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Meet the Doctor</span>
+        <h2>Expert Care by <span class="gradient-text">Dr. Gaurav Sharma</span></h2>
+        <p>Lead physician with over 15 years of experience in general medicine and internal care.</p>
+      </div>
+
+      <div class="doctor-card" data-reveal>
+        <div class="doctor-image">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=700&auto=format&fit=crop" alt="Dr. Gaurav Sharma">
+        </div>
+        <div class="doctor-info">
+          <h3>Dr. Gaurav Sharma</h3>
+          <p class="role">MBBS, MD (Internal Medicine)</p>
+          <p class="tagline">Senior Consultant Physician</p>
+
+          <div class="doctor-details">
+            <div><i class="fa-solid fa-user-graduate"></i><span>AIIMS, New Delhi</span></div>
+            <div><i class="fa-solid fa-briefcase-medical"></i><span>15+ Years Experience</span></div>
+            <div><i class="fa-solid fa-language"></i><span>English, Hindi</span></div>
+            <div><i class="fa-solid fa-clock"></i><span>Mon–Sat: 9 AM – 8 PM</span></div>
+          </div>
+
+          <div class="doctor-specialities">
+            <span>General Medicine</span>
+            <span>Diabetes Care</span>
+            <span>Heart Health</span>
+            <span>Respiratory</span>
+            <span>Preventive Care</span>
+          </div>
+
+          <div class="doctor-btns">
+            <a href="#appointment" class="btn btn-primary"><i class="fa-solid fa-calendar-check"></i> Book Appointment</a>
+            <a href="tel:+919876543210" class="btn btn-outline"><i class="fa-solid fa-phone"></i> Call Doctor</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section services">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Our Services</span>
+        <h2>Comprehensive <span class="gradient-text">Healthcare Services</span></h2>
+        <p>From routine check-ups to specialized treatment — we offer a wide range of medical services.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-stethoscope"></i></div>
+          <h3>General Medicine</h3>
+          <p>Complete diagnosis and treatment for common and complex medical conditions.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <h3>Cardiology</h3>
+          <p>Advanced cardiac care including ECG, BP management, and heart consultations.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-droplet"></i></div>
+          <h3>Diabetes Care</h3>
+          <p>Expert diabetes management, HbA1c testing, and lifestyle counseling.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-lungs"></i></div>
+          <h3>Respiratory Care</h3>
+          <p>Treatment for asthma, COPD, and other respiratory disorders.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-baby"></i></div>
+          <h3>Pediatrics</h3>
+          <p>Specialized child care including vaccinations and growth monitoring.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-user-doctor"></i></div>
+          <h3>Women's Health</h3>
+          <p>Comprehensive gynecological consultations and wellness programs.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-vials"></i></div>
+          <h3>Lab & Diagnostics</h3>
+          <p>Accurate in-house blood tests, X-rays, and diagnostic services.</p>
+        </div>
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-notes-medical"></i></div>
+          <h3>Health Check-ups</h3>
+          <p>Complete body check-up packages for preventive healthcare.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== APPOINTMENT ===== -->
+  <section id="appointment" class="section appointment">
+    <div class="container appointment-grid">
+      <div class="appointment-info" data-reveal>
+        <span class="section-tag">Book Appointment</span>
+        <h2>Schedule Your <span class="gradient-text">Visit Today</span></h2>
+        <p>Fill out the form and our team will contact you to confirm your appointment.</p>
+
+        <div class="info-list">
+          <div><i class="fa-solid fa-location-dot"></i><div><strong>Location</strong><p>Agra, Uttar Pradesh, India</p></div></div>
+          <div><i class="fa-solid fa-clock"></i><div><strong>Timings</strong><p>Mon–Sat, 9:00 AM – 8:00 PM</p></div></div>
+          <div><i class="fa-solid fa-phone"></i><div><strong>Phone</strong><p>+91 98765 43210</p></div></div>
+          <div><i class="fa-solid fa-envelope"></i><div><strong>Email</strong><p>contact@gsclinic.in</p></div></div>
+        </div>
+      </div>
+
+      <form class="appointment-form glass" id="appointmentForm" data-reveal>
+        <h3><i class="fa-solid fa-calendar-plus"></i> Appointment Form</h3>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" name="phone" placeholder="+91 98765 43210" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Date</label>
+            <input type="date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label>Time Slot</label>
+            <select name="time" required>
+              <option value="">Select time</option>
+              <option>09:00 AM - 10:00 AM</option>
+              <option>10:00 AM - 11:00 AM</option>
+              <option>11:00 AM - 12:00 PM</option>
+              <option>02:00 PM - 03:00 PM</option>
+              <option>03:00 PM - 04:00 PM</option>
+              <option>05:00 PM - 06:00 PM</option>
+              <option>06:00 PM - 07:00 PM</option>
+              <option>07:00 PM - 08:00 PM</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Service</label>
+          <select name="service" required>
+            <option value="">Select service</option>
+            <option>General Consultation</option>
+            <option>Cardiology</option>
+            <option>Diabetes Care</option>
+            <option>Pediatrics</option>
+            <option>Women's Health</option>
+            <option>Lab Tests</option>
+            <option>Health Check-up</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Message (Optional)</label>
+          <textarea name="message" rows="3" placeholder="Describe your concern..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+          <i class="fa-solid fa-paper-plane"></i> Confirm Appointment
+        </button>
+        <p class="form-note"><i class="fa-solid fa-lock"></i> Your information is safe with us.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Gallery</span>
+        <h2>Inside <span class="gradient-text">GS Clinic</span></h2>
+        <p>Take a look at our modern, patient-friendly facilities.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-reveal><img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600" alt="Reception"><div class="overlay">Reception</div></div>
+        <div class="gallery-item" data-reveal><img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=600" alt="Consultation"><div class="overlay">Consultation Room</div></div>
+        <div class="gallery-item" data-reveal><img src="https://images.unsplash.com/photo-1551076805-e1869033e561?w=600" alt="Lab"><div class="overlay">Diagnostic Lab</div></div>
+        <div class="gallery-item" data-reveal><img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600" alt="Waiting"><div class="overlay">Waiting Area</div></div>
+        <div class="gallery-item" data-reveal><img src="https://images.unsplash.com/photo-1584467735815-f778f274e296?w=600" alt="Equipment"><div class="overlay">Advanced Equipment</div></div>
+        <div class="gallery-item" data-reveal><img src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600" alt="Pharmacy"><div class="overlay">Pharmacy</div></div>
+        <div class="gallery-item" data-reveal><img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600" alt="Care"><div class="overlay">Patient Care</div></div>
+        <div class="gallery-item" data-reveal><img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600" alt="Team"><div class="overlay">Our Team</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HEALTH TIPS ===== -->
+  <section id="tips" class="section tips">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Health Tips</span>
+        <h2>Live Healthier, <span class="gradient-text">Live Better</span></h2>
+        <p>Quick daily habits recommended by our doctors for a healthier life.</p>
+      </div>
+
+      <div class="tips-grid">
+        <div class="tip-card" data-reveal>
+          <i class="fa-solid fa-glass-water"></i>
+          <h3>Stay Hydrated</h3>
+          <p>Drink at least 8 glasses of water daily to keep your body functioning optimally.</p>
+        </div>
+        <div class="tip-card" data-reveal>
+          <i class="fa-solid fa-person-running"></i>
+          <h3>Exercise Daily</h3>
+          <p>A 30-minute walk or workout boosts immunity and keeps your heart healthy.</p>
+        </div>
+        <div class="tip-card" data-reveal>
+          <i class="fa-solid fa-apple-whole"></i>
+          <h3>Balanced Diet</h3>
+          <p>Eat plenty of fruits, vegetables, and whole grains. Avoid excess sugar & junk food.</p>
+        </div>
+        <div class="tip-card" data-reveal>
+          <i class="fa-solid fa-bed"></i>
+          <h3>Sleep Well</h3>
+          <p>Get 7–8 hours of quality sleep to recharge your body and mind every day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section id="reviews" class="section reviews">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Patient Reviews</span>
+        <h2>What Our <span class="gradient-text">Patients Say</span></h2>
+        <p>Real stories from people who trust GS Clinic for their healthcare.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card glass" data-reveal>
+          <div class="stars">★★★★★</div>
+          <p>"Excellent experience! Dr. Sharma is very kind and listens patiently. The clinic is clean, and staff is very supportive."</p>
+          <div class="reviewer">
+            <div class="avatar">RS</div>
+            <div><strong>Rahul Sharma</strong><small>Agra</small></div>
+          </div>
+        </div>
+        <div class="review-card glass" data-reveal>
+          <div class="stars">★★★★★</div>
+          <p>"GS Clinic is the best in Agra. I brought my mother here and the treatment was top-notch. Highly recommended!"</p>
+          <div class="reviewer">
+            <div class="avatar">PA</div>
+            <div><strong>Priya Agarwal</strong><small>Agra Cantt</small></div>
+          </div>
+        </div>
+        <div class="review-card glass" data-reveal>
+          <div class="stars">★★★★★</div>
+          <p>"Very professional and affordable. The digital records and online booking make it super convenient."</p>
+          <div class="reviewer">
+            <div class="avatar">AK</div>
+            <div><strong>Amit Kumar</strong><small>Sikandra</small></div>
+          </div>
+        </div>
+        <div class="review-card glass" data-reveal>
+          <div class="stars">★★★★★</div>
+          <p>"The doctors took great care of my child. Friendly environment and short waiting times. Thank you GS Clinic!"</p>
+          <div class="reviewer">
+            <div class="avatar">NV</div>
+            <div><strong>Neha Verma</strong><small>Kamla Nagar</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" class="section faq">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">FAQ</span>
+        <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+        <p>Quick answers to the most common queries from our patients.</p>
+      </div>
+
+      <div class="faq-list" data-reveal>
+        <div class="faq-item">
+          <button class="faq-q">What are the clinic timings?<i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>GS Clinic is open Monday to Saturday from 9:00 AM to 8:00 PM. Sunday is closed.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How do I book an appointment?<i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>You can book online via our website, call +91 98765 43210, or message us on WhatsApp.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you accept insurance?<i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>Yes, we accept most major insurance providers. Please bring your insurance card during the visit.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Is parking available?<i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>Yes, free parking is available for both two-wheelers and four-wheelers at the clinic premises.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you offer home visits?<i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>Yes, home consultation is available within Agra city on prior appointment. Contact us for details.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">What should I bring to my first visit?<i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>Please bring a valid ID, previous medical reports, prescriptions, and insurance card if applicable.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAP & CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="section-tag">Find Us</span>
+        <h2>Visit <span class="gradient-text">GS Clinic</span></h2>
+        <p>We're conveniently located in Agra. Come visit us or reach out anytime.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="map-wrap glass" data-reveal>
+          <iframe
+            src="https://www.google.com/maps?q=Agra,Uttar+Pradesh,India&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="GS Clinic Location">
+          </iframe>
+        </div>
+
+        <div class="contact-info" data-reveal>
+          <div class="contact-card glass">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Address</h4>
+              <p>123 MG Road, Sadar Bazaar,<br>Agra, Uttar Pradesh 282001</p>
+            </div>
+          </div>
+          <div class="contact-card glass">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h4>Phone / WhatsApp</h4>
+              <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+            </div>
+          </div>
+          <div class="contact-card glass">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:contact@gsclinic.in">contact@gsclinic.in</a></p>
+            </div>
+          </div>
+          <div class="contact-card glass">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Mon – Sat: 9:00 AM – 8:00 PM<br>Sunday: Closed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-icon"><i class="fa-solid fa-staff-snake"></i></span>
+          <span class="logo-text">GS <span>Clinic</span></span>
+        </a>
+        <p>Your trusted partner for quality healthcare in Agra. Compassionate care, modern medicine.</p>
+        <div class="social">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#appointment">Appointment</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">General Medicine</a></li>
+          <li><a href="#services">Cardiology</a></li>
+          <li><a href="#services">Diabetes Care</a></li>
+          <li><a href="#services">Pediatrics</a></li>
+          <li><a href="#services">Lab Tests</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-location-dot"></i> Agra, Uttar Pradesh</li>
+          <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+          <li><i class="fa-solid fa-envelope"></i> contact@gsclinic.in</li>
+          <li><i class="fa-solid fa-clock"></i> Mon–Sat, 9AM–8PM</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> GS Clinic. All rights reserved. | Crafted with <i class="fa-solid fa-heart"></i> for healthier Agra.</p>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING BUTTONS ===== -->
+  <a href="https://wa.me/919876543210" class="float-btn whatsapp" target="_blank" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+  <a href="tel:+919876543210" class="float-btn call" aria-label="Call Now">
+    <i class="fa-solid fa-phone"></i>
+  </a>
+  <button id="backToTop" class="float-btn top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ===== AI CHATBOT ===== -->
+  <button id="chatToggle" class="chat-toggle" aria-label="Open chat">
+    <i class="fa-solid fa-robot"></i>
+    <span class="ping"></span>
+  </button>
+
+  <div id="chatbot" class="chatbot" aria-hidden="true">
+    <div class="chat-header">
+      <div>
+        <i class="fa-solid fa-robot"></i>
+        <div>
+          <strong>GS Clinic AI Assistant</strong>
+          <span><i class="fa-solid fa-circle"></i> Online</span>
+        </div>
+      </div>
+      <button id="chatClose" aria-label="Close chat"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="chat-body" id="chatBody"></div>
+    <div class="chat-suggestions" id="chatSuggestions"></div>
+    <form class="chat-input" id="chatForm">
+      <input type="text" id="chatInput" placeholder="Ask about timing, services, doctor..." autocomplete="off">
+      <button type="submit" aria-label="Send"><i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+  </div>
+
+  <!-- ===== SCRIPT ===== -->
+  <script src="script.js"></script>
+</body>
+</html>
